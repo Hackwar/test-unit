@@ -3,10 +3,13 @@
 
 	<testsuites>
 		<testsuite name="libraries-cms">
-			<directory>suites/libraries/cms</directory>
+			<directory>../../../../tests/unit/suites/libraries/cms</directory>
 		</testsuite>
 		<testsuite name="libraries-legacy">
-			<directory>suites/libraries/legacy</directory>
+			<directory>../../../../tests/unit/suites/libraries/legacy</directory>
+		</testsuite>
+		<testsuite name="libraries-4.0">
+			<directory>../../../../tests/unit/suites/libraries/src</directory>
 		</testsuite>
 	</testsuites>
 
